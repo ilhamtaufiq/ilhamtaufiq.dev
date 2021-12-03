@@ -41,7 +41,7 @@ export default Vue.extend({
           title: "This Website",
           description:
             "The website where you can learn more and more about me!",
-          image: "https://i.vgy.me/sAQScm.jpg",
+          image: "https://imagizer.imageshack.com/img924/4027/ORemcY.png",
           to: "/",
         },
         // {
@@ -106,28 +106,16 @@ export default Vue.extend({
         ],
         education: [
           {
-            title: "Goce Delchev University",
-            url: "https://www.ugd.edu.mk/",
-            position: "Erasmus+ Student",
-            date: "2021-",
+            title: "Universitas Putra Indonesia (UNPI) Cianjur",
+            url: "https://www.unpi-cianjur.ac.id/",
+            position: "Teknik Informatika",
+            date: "2017-2021",
           },
           {
-            title: "Muş Alparslan University",
-            url: "http://alparslan.edu.tr/",
-            position: "English Language Teaching",
-            date: "2020-",
-          },
-          {
-            title: "Rotosis Robotics",
-            url: "https://www.rotosis.com/",
-            position: "Intern",
-            date: "2017-2018",
-          },
-          {
-            title: "Adil Karaağaç MTAL",
-            url: "https://akatl.meb.k12.tr/",
-            position: "Automation Systems",
-            date: "2014-2018",
+            title: "SMKN 1 Cianjur",
+            url: "http://smkn1cianjur.sch.id/",
+            position: "Teknik Komputer Jaringan",
+            date: "2013-2016",
           },
         ],
       } as ExperienceObject,
@@ -136,16 +124,9 @@ export default Vue.extend({
         "HTML5",
         "Nuxt.js",
         "Vue.js",
-        "Tailwind CSS",
-        "Windi CSS",
         "Node.js",
-        "TypeScript",
-        "Sass",
-        "Figma",
-        "Firebase",
         "WordPress",
         "PHP",
-        "React.js",
       ],
     }
   },
@@ -258,14 +239,14 @@ export default Vue.extend({
         <h3 class="font-semibold text-xl text-gray-900 dark:text-gray-100">Education</h3>
 
         <div class="mt-4 grid gap-2">
-          <!-- <CardExperience
+          <CardExperience
             v-for="(experience, index) in experiences.education"
             :key="`experience-education-${index}`"
             :title="experience.title"
             :url="experience.url"
             :date="experience.date"
             :position="experience.position"
-          /> -->
+          />
         </div>
       </div>
     </section>
@@ -275,9 +256,9 @@ export default Vue.extend({
         class="font-semibold mt-4 text-xl text-gray-900 md:mt-10 dark:text-gray-100"
       >Technologies I use</h3>
 
-      <!-- <div class="mt-4 grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
+      <div class="mt-4 grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
         <CardSkill v-for="(skill, index) in skills" :key="`skill-${index}`" :title="skill" />
-      </div> -->
+      </div>
     </section>
 
     <section id="repositories" class="mt-6">

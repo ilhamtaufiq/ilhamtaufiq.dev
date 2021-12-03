@@ -54,7 +54,7 @@ export default Vue.extend({
 
         switch (option) {
           case "twitter":
-            url = `https://twitter.com/intent/tweet?via=eggsydev&text=${encodeURIComponent(
+            url = `https://twitter.com/intent/tweet?via=ilhamtopiq&text=${encodeURIComponent(
               this.title + "\n" + location.href
             )}`
             break
