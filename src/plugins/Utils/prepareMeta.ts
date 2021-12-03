@@ -79,7 +79,7 @@ export default function prepareMeta(
 
   const defaultKeywords = [
     "technology",
-    "turkish",
+    "indonesia",
     "developer",
     "portfolio",
     "vue",
