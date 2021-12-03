@@ -30,13 +30,13 @@ export default Vue.extend({
       showModal: false,
       repos: [] as Repository[],
       projects: [
-        {
-          title: "PreMiD",
-          description:
-            "PreMiD is a simple, configurable utility that allows you to show what you're doing on the web in your Discord now playing status.",
-          image: "https://i.vgy.me/rhHgcJ.jpg",
-          to: "/projects/premid",
-        },
+        // {
+        //   title: "PreMiD",
+        //   description:
+        //     "PreMiD is a simple, configurable utility that allows you to show what you're doing on the web in your Discord now playing status.",
+        //   image: "https://i.vgy.me/rhHgcJ.jpg",
+        //   to: "/projects/premid",
+        // },
         {
           title: "This Website",
           description:
@@ -44,20 +44,20 @@ export default Vue.extend({
           image: "https://i.vgy.me/sAQScm.jpg",
           to: "/",
         },
-        {
-          title: "Unblock Please",
-          description:
-            "Unblock Imgur and Pastebin access using secure proxies!",
-          image: "https://i.imgur.com/1NxPOjN.png",
-          to: "/projects/unblock-please",
-        },
-        {
-          title: "is-inside.me",
-          description:
-            "Free image and file uploading service for uploaders like ShareX!",
-          image: "https://i.imgur.com/68IChiq.png",
-          to: "/projects/is-inside-me",
-        },
+        // {
+        //   title: "Unblock Please",
+        //   description:
+        //     "Unblock Imgur and Pastebin access using secure proxies!",
+        //   image: "https://i.imgur.com/1NxPOjN.png",
+        //   to: "/projects/unblock-please",
+        // },
+        // {
+        //   title: "is-inside.me",
+        //   description:
+        //     "Free image and file uploading service for uploaders like ShareX!",
+        //   image: "https://i.imgur.com/68IChiq.png",
+        //   to: "/projects/is-inside-me",
+        // },
       ] as Project[],
       experiences: {
         jobs: [
