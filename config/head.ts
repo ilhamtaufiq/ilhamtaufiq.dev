@@ -3,7 +3,7 @@ import { NuxtOptionsHead } from "@nuxt/types/config/head"
 /* Define constants */
 const image = "https://ilham-rocks.vercel.app/icon.png"
 const description =
-  "Young JavaScript developer from Turkey, interested in languages, gaming, and programming, trying to improve his JavaScript skills!"
+  "Ilham's Blog"
 
 const Head: NuxtOptionsHead = {
   title: "ilham-rocks.vercel.app",

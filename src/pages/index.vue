@@ -189,12 +189,12 @@ export default Vue.extend({
           </div>
 
           <p class="text-gray-800 dark:text-gray-200">
-            Hi there, my name is Abdulbaki, I am from Turkey and I am a self
-            taught web developer. I build complex web apps using
-            <SmartLink href="https://vuejs.org/" class="description-link" blank>Vue.js</SmartLink>,
+            Hi there, my name is Ilham, I am from Indonesia and I am a self
+            taught web developer.
+            <!-- <SmartLink href="https://vuejs.org/" class="description-link" blank>Vue.js</SmartLink>,
             <SmartLink href="https://nuxtjs.org/" class="description-link" blank>Nuxt.js</SmartLink>
             {{ "" }} and
-            <SmartLink href="https://windicss.org/" class="description-link" blank>Windi CSS</SmartLink>.
+            <SmartLink href="https://windicss.org/" class="description-link" blank>Windi CSS</SmartLink>. -->
           </p>
         </div>
 
@@ -243,14 +243,14 @@ export default Vue.extend({
         <h3 class="font-semibold text-xl text-gray-900 dark:text-gray-100">Experience</h3>
 
         <div class="mt-4 grid gap-2">
-          <CardExperience
+          <!-- <CardExperience
             v-for="(experience, index) in experiences.jobs"
             :key="`experience-job-${index}`"
             :title="experience.title"
             :url="experience.url"
             :date="experience.date"
             :position="experience.position"
-          />
+          /> -->
         </div>
       </div>
 
@@ -258,14 +258,14 @@ export default Vue.extend({
         <h3 class="font-semibold text-xl text-gray-900 dark:text-gray-100">Education</h3>
 
         <div class="mt-4 grid gap-2">
-          <CardExperience
+          <!-- <CardExperience
             v-for="(experience, index) in experiences.education"
             :key="`experience-education-${index}`"
             :title="experience.title"
             :url="experience.url"
             :date="experience.date"
             :position="experience.position"
-          />
+          /> -->
         </div>
       </div>
     </section>
@@ -275,9 +275,9 @@ export default Vue.extend({
         class="font-semibold mt-4 text-xl text-gray-900 md:mt-10 dark:text-gray-100"
       >Technologies I use</h3>
 
-      <div class="mt-4 grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
+      <!-- <div class="mt-4 grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
         <CardSkill v-for="(skill, index) in skills" :key="`skill-${index}`" :title="skill" />
-      </div>
+      </div> -->
     </section>
 
     <section id="repositories" class="mt-6">
