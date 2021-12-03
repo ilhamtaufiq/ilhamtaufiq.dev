@@ -20,7 +20,7 @@ const Feed = () => {
 
     articles.forEach((article: any) => {
       const url = `${baseUrlArticles}/artikel/${article.slug}`
-      const postImagesPath = "/assets/images/posts"
+      const postImagesPath = "https://ilham-rocks.vercel.app/assets/images/posts"
 
       feed.addItem({
         title: article.title,
@@ -28,7 +28,7 @@ const Feed = () => {
         link: url,
         image: article.image
           ? `${postImagesPath}/${article.image}`
-          : `${postImagesPath}/${url?.split("/")?.at(-1)}.jpg`,
+          : `${postImagesPath}/${url?.toDateString().split("/")?.at(-1)}.jpg`,
         date: new Date(article.createdAt),
         description: article.description,
         content: article.summary,
