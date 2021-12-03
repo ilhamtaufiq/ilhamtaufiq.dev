@@ -19,18 +19,3 @@ export interface Social {
   trello: string
   email: string
 }
-
-export interface Links {
-  unblockPlease: UnblockPlease
-  isInsideMe: IsInsideMe
-}
-
-export interface IsInsideMe {
-  website: string
-  faq: string
-}
-
-export interface UnblockPlease {
-  webstore: string
-  github: string
-}
