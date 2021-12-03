@@ -19,10 +19,6 @@ export default Vue.extend({
             title: "Daily",
             to: "/daily",
           },
-          {
-            title: "Donate",
-            to: "/donate",
-          },
         ],
         premid: [
           {
