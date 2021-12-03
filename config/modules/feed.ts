@@ -26,9 +26,9 @@ const Feed = () => {
         title: article.title,
         slug: article.slug,
         link: url,
-        image: article.image
-          ? `${postImagesPath}/${article.image}`
-          : `${postImagesPath}/${url?.split("/")?.at(-1)}.jpg`,
+        // image: article.image
+        //   ? `${postImagesPath}/${article.image}`
+        //   : `${postImagesPath}/${url?.split("/")?.at(-1)}.jpg`,
         date: new Date(article.createdAt),
         description: article.description,
         content: article.summary,
