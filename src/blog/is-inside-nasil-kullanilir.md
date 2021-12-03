@@ -6,7 +6,7 @@ tags:
 createdAt: 2020-01-09T02:23:59.638Z
 ---
 
-<blog-notification type="information">Bu yazı eski site ve eski blogdan kalmadır. Yenilenen sitemde is-inside.me'ye özel yaptığım sayfaya ulaşmak için [buraya](/projects/is-inside-me) tıklayabilirsiniz.</blog-notification>
+<blog-notification type="information">Bu yazı eski site ve eski blogdan kalmadır. Yenilenen sitemde is-inside.me'ye özel yaptığım sayfaya ulaşmak için  tıklayabilirsiniz.</blog-notification>
 
 Öncelikle, ShareX'in ne olduğu hakkında kısa bir bilgi vereceğim, bu sayfanın amacı ShareX'in nasıl kullanılacağı değil, is-inside.me ayarlarını ShareX programına nasıl aktarılacağını göstermektedir. Eğer ShareX'in ne olduğunu zaten biliyorsanız bu kısmı atlayabilirsiniz.
 
