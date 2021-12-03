@@ -9,7 +9,7 @@ export default Vue.extend({
      */
     getLocalizedNotice(): string {
       if (this.$route.name?.includes("blog"))
-        return "Bu site GitHub üzerinde açık kaynak olarak paylaşılmıştır."
+        return "Ilham Taufiq"
       else return "This website is open-source on GitHub"
     },
   },
@@ -23,7 +23,7 @@ export default Vue.extend({
         class="space-y-4 text-center items-center justify-between sm:(flex space-y-0 space-x-6 text-left) "
       >
         <SmartLink
-          href="https://github.com/eggsy/website"
+          href="#"
           class="text-center sm:truncate hover:underline"
           blank
         >{{ getLocalizedNotice }}</SmartLink>

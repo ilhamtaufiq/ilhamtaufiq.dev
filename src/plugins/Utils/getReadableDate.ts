@@ -12,7 +12,7 @@ export default function getReadableDate(date: Date): string {
 
   if (diff === 0) return "Bugün"
   else if (diff === 1) return "Dün"
-  else if (diff <= 30) return `${diff} gün önce`
+  else if (diff <= 30) return `${diff} Beberapa Hari yang Lalu`
   else if (diff >= 30 && diff <= 90) return `${Math.floor(diff / 30)} ay önce`
   else return createdAt.format("DD/MM/YYYY")
 }

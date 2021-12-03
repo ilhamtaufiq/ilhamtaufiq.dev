@@ -14,9 +14,9 @@ related:
   - nedir-bu-blog
 ---
 
-<blog-notification type="warning">Bu yazı, blogun yayınlanan ilk sürümünden olup, şu anki blog için geçerliliğini yitirmiş ve resimler hiçbir geçerli sistemi yansıtmamaktadır. Gönderiyi incelemek isteyenler inceleyebilir ancak gönderide gösterilen resimlerin geçerli hiçbir sayfayı yansıtmadığını lütfen unutmayın. Bu blog güncellemesi ile ilgili daha fazla bilgi almak için [bu sayfayı](/blog/gonderi/blog-yenilendi) ziyaret edin.</blog-notification>
+<blog-notification type="warning">Bu yazı, blogun yayınlanan ilk sürümünden olup, şu anki blog için geçerliliğini yitirmiş ve resimler hiçbir geçerli sistemi yansıtmamaktadır. Gönderiyi incelemek isteyenler inceleyebilir ancak gönderide gösterilen resimlerin geçerli hiçbir sayfayı yansıtmadığını lütfen unutmayın. Bu blog güncellemesi ile ilgili daha fazla bilgi almak için [bu sayfayı](/blog/artikel/blog-yenilendi) ziyaret edin.</blog-notification>
 
-[Bu yazımda](/blog/gonderi/nedir-bu-blog) da bahsettiğim gibi blog, hiçbir hazır tasarım (Vuetify dışında), hazır kod veya hazır sistemler kullanılmadan, tamamiyle sıfırdan tasarlanmıştır. Bu gönderide okuyacağınız özelliklerin hiçbiri internetten alınmamış, sıfırdan yapılmıştır.
+[Bu yazımda](/blog/artikel/nedir-bu-blog) da bahsettiğim gibi blog, hiçbir hazır tasarım (Vuetify dışında), hazır kod veya hazır sistemler kullanılmadan, tamamiyle sıfırdan tasarlanmıştır. Bu gönderide okuyacağınız özelliklerin hiçbiri internetten alınmamış, sıfırdan yapılmıştır.
 
 Blog başlı başına tabii ki tüm elementlerine kadar el ile kodlanmadı. Vuetify sayesinde bu elementler hazır olarak gelse de yerleşimi, arka plandaki API sistemi ve geriye kalan sistemlerin hepsi sıfırdan yazıldı. Bunlardan ilki ise ana sayfa... Ana sayfa, oldukça basit olsa bile birçok ufak detay barındırıyor. Bunlardan ilki, son 4 (bu sayı monitörünüzün boyutuna göre değişebilir ancak maksimum 5 gönderi gösterecektir, elden bu kadar geldi) gönderinin galeri gibi sayfanın en üstünde yer alması ve bunların üzerine gelince efekt ile birlikte "Devamını Oku" butonunun çıkması.
 
@@ -34,7 +34,7 @@ Ana sayfadan şimdilik bu kadar. İlerleyen zamanlarda pek bir değişiklik yapa
 
 <smart-image src="https://the-person-under-this-message.is-inside.me/saAFY5FM.png"></smart-image>
 
-Yan menüden başka her sayfada görünen yönlendirme çubukları ve arama kısmı ise hem mobilde, hem masaüstünde sayfalara daha hızlı ulaşıp bulmak istediğiniz gönderileri aramanızı sağlıyor. Arama sonuçları, yazılmış tüm gönderiler arasında belirtilen kelimeleri içeren başlığa sahip gönderileri tarihlerine göre sıralayıp size gösterecektir. On numara bir arama denemez ama zamanla bunun üzerinde de çalışırsam bu yazıyı burada göremeyebilirsiniz 😅
+Yan menüden başka her sayfada görünen yönlendirme çubukları ve arama kısmı ise hem mobilde, hem masaüstünde sayfalara daha hızlı ulaşıp bulmak istediğiniz gönderileri aramanızı sağlıyor. Arama sonuçları, yazılmış Semua Artikel arasında belirtilen kelimeleri içeren başlığa sahip gönderileri tarihlerine göre sıralayıp size gösterecektir. On numara bir arama denemez ama zamanla bunun üzerinde de çalışırsam bu yazıyı burada göremeyebilirsiniz 😅
 
 <smart-image src="https://the-person-under-this-message.is-inside.me/44GrkwLo.gif"></smart-image>
 
@@ -46,7 +46,7 @@ Devamında ise her gönderinin altında bulunan yorumlar kısmı var. Bu kısım
 
 <smart-image src="https://the-person-under-this-message.is-inside.me/4qWWtlxA.gif"></smart-image>
 
-Geriye ise bu kategoride etiket sayfaları kalıyor. Bu sayfalarda aradığınız etikete sahip tüm gönderilerin aynı ana sayfadaki gönderiler kısmının çalışma sistemi ile çalışan bir sistemle ulaşabilirsiniz.
+Geriye ise bu kategoride etiket sayfaları kalıyor. Bu sayfalarda aradığınız etikete sahip Semua Artikelin aynı ana sayfadaki gönderiler kısmının çalışma sistemi ile çalışan bir sistemle ulaşabilirsiniz.
 
 <smart-image src="https://the-person-under-this-message.is-inside.me/POGiJhVp.png"></smart-image>
 

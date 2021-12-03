@@ -1,5 +1,5 @@
 const Feed = () => {
-  const baseUrlArticles = "https://eggsy.xyz/blog"
+  const baseUrlArticles = "https://ilham-rocks.vercel.app/blog"
 
   const feedFormats = {
     rss: { type: "rss2", file: "rss.xml" },
@@ -10,17 +10,17 @@ const Feed = () => {
 
   const createFeedArticles = async function (feed: any) {
     feed.options = {
-      title: "EGGSY's Blog",
+      title: "Ilhams's Blog",
       description:
-        "EGGSY'nin günlük hayattan, tecrübelerinden bahsettiği, göstermek veya anlatmak istediği şeyleri daha düzenli ve profesyonel bir şekilde tuttuğu blog sayfası.",
+        "Ilham's Personal Website",
       link: baseUrlArticles,
     }
 
     const articles = await $content().fetch()
 
     articles.forEach((article: any) => {
-      const url = `${baseUrlArticles}/gonderi/${article.slug}`
-      const postImagesPath = "https://eggsy.xyz/assets/images/posts"
+      const url = `${baseUrlArticles}/artikel/${article.slug}`
+      const postImagesPath = "https://ilham-rocks.vercel.app/assets/images/posts"
 
       feed.addItem({
         title: article.title,

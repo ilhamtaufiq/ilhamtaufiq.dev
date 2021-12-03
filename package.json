@@ -1,33 +1,24 @@
 {
-  "name": "eggsy-website",
-  "description": "EGGSY's personal website made in TypeScript, Nuxt.js and Windi/Tailwind CSS",
+  "name": "ilham-rocks",
+  "description": "Ilham's Personal Website",
   "license": "MIT",
   "version": "4.0.0",
-  "homepage": "https://eggsy.xyz",
-  "readme": "https://github.com/eggsy/website#readme",
+  "homepage": "https://ilham-rocks.vercel.app",
+  "readme": "https://github.com/ilhamtaufiq/ilham-rocks#readme",
   "author": {
-    "name": "Abdulbaki Dursun",
-    "email": "eggsydev@gmail.com",
-    "url": "https://eggsy.xyz"
+    "name": "Ilham Taufiq",
+    "email": "ilhamtaufiq@gmail.com",
+    "url": "https://ilham-rocks.vercel.app"
   },
   "bugs": {
-    "email": "eggsydev@gmail.com",
-    "url": "https://github.com/eggsy/website/issues"
+    "email": "ilhamtaufiq@gmail.com",
+    "url": "https://github.com/ilhamtaufiq/ilham-rocks/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eggsy/website.git"
+    "url": "https://github.com/ilhamtaufiq/ilham-rocks.git"
   },
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://eggsy.xyz/donate"
-    },
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/eggsy"
-    }
-  ],
+  
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

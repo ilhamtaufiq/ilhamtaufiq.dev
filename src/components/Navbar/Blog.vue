@@ -80,7 +80,7 @@ export default Vue.extend({
           <input
             id="search"
             v-model="input"
-            placeholder="Gönderi ara..."
+            placeholder="Cari..."
             class="rounded-tl-lg rounded-bl-lg bg-gray-100 w-full py-1.5 px-3 placeholder-gray-500 appearance-none dark:bg-gray-800 focus:outline-none"
             @focus="inputFocused = true"
             @blur="inputFocused = false"

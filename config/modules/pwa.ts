@@ -1,7 +1,7 @@
 export default {
   manifest: {
-    name: "eggsy.xyz",
-    short_name: "eggsy.xyz",
+    name: "ilham-rocks.vercel.app",
+    short_name: "ilham-rocks.vercel.app",
     theme_color: "#f56565",
     lang: "en",
   },

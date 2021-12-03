@@ -187,7 +187,7 @@ export default Vue.extend({
 <template>
   <div class="pt-6">
     <div v-if="getFilteredPosts === false">
-      <h3 class="font-semibold text-lg text-gray-900 dark:text-gray-100">Son gönderiler</h3>
+      <h3 class="font-semibold text-lg text-gray-900 dark:text-gray-100">Artikel Terbaru</h3>
 
       <div class="mt-2 grid gap-4 md:grid-cols-3">
         <template v-if="isFetchPending">
@@ -225,7 +225,7 @@ export default Vue.extend({
       </div>
 
       <div class="mt-16">
-        <h3 class="font-semibold space-x-2 text-lg text-gray-900 dark:text-gray-100">Tüm gönderiler</h3>
+        <h3 class="font-semibold space-x-2 text-lg text-gray-900 dark:text-gray-100">Semua Artikel</h3>
 
         <div class="mt-4 grid gap-3 md:grid-cols-3">
           <template v-if="isFetchPending">
@@ -260,17 +260,16 @@ export default Vue.extend({
       <div v-if="isFetchPending === false && getFilteredPosts.length === 0" class="space-y-4">
         <h2
           class="font-semibold text-2xl text-gray-900 md:text-4xl dark:text-gray-100"
-        >Aramanıza uygun herhangi bir gönderi bulunamadı.</h2>
+        >Artikel yang kamu cari tidak ditemukan.</h2>
 
         <div class="md:w-4/6">
-          <h3 class="text-lg text-gray-900 dark:text-gray-100">Deneyebileceğiniz yöntemler:</h3>
+          <h3 class="text-lg text-gray-900 dark:text-gray-100">Kamu bisa coba:</h3>
 
           <ul class="list-disc pl-4 text-gray-700 dark:text-gray-300">
-            <li>Aramanızda anahtar kelimeler kullanmayı deneyin.</li>
-            <li>Etiketler kullanmayı deneyin.</li>
+            <li>Coba gunakan kata kunci dalam pencarian kamu.</li>
+            <li>Coba gunakan tag.</li>
             <li>
-              Gönderinin başlığında veya açıklamasında olan kelimelerle arama
-              yapmayı deneyin.
+              Coba cari kata-kata yang ada di judul atau deskripsi artikel.
             </li>
           </ul>
         </div>
@@ -280,7 +279,7 @@ export default Vue.extend({
           class="rounded flex space-x-2 bg-gray-100 py-2 px-4 ring-1 ring-gray-200 text-gray-900 items-center justify-center md:w-max dark:(bg-gray-800 ring-gray-700 text-gray-100 hover:bg-gray-700) hover:bg-gray-200 "
         >
           <IconHome class="h-6 w-6" />
-          <span>Bloga Dön</span>
+          <span>Kembali ke Blog</span>
         </SmartLink>
       </div>
 

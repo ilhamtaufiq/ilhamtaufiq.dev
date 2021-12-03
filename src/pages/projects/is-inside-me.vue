@@ -16,12 +16,12 @@ export default Vue.extend({
         title,
         description,
         keywords: "is-inside.me",
-        url: "https://eggsy.xyz/projects/is-inside-me",
+        url: "https://ilham-rocks.vercel.app/projects/is-inside-me",
       }),
       link: [
         {
           rel: "canonical",
-          href: "https://eggsy.xyz/projects/is-inside-me",
+          href: "https://ilham-rocks.vercel.app/projects/is-inside-me",
         },
       ],
     }

@@ -36,7 +36,7 @@ export default Vue.extend({
         if (!el) {
           el = document.createElement("input")
 
-          el.value = this.path ? `https://eggsy.xyz${this.path}` : location.href
+          el.value = this.path ? `https://ilham-rocks.vercel.app${this.path}` : location.href
           document.body.appendChild(el)
 
           el.select()
@@ -126,7 +126,7 @@ export default Vue.extend({
       <input
         ref="share-url"
         readonly
-        :value="`https://eggsy.xyz${path}`"
+        :value="`https://ilham-rocks.vercel.app${path}`"
         class="rounded-md w-full p-3 ring-1 ring-opacity-25 ring-gray-800 sm:py-3 sm:px-4 dark:(bg-gray-800 text-gray-100) focus:outline-none "
         @click="share('url')"
       />

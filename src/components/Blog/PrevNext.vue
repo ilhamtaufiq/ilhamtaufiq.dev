@@ -42,9 +42,9 @@ export default Vue.extend({
     class="grid gap-6 grid-cols-1 sm:grid-cols-2 dark:text-gray-200"
   >
     <div>
-      <h4 class="font-medium">Önceki Gönderi</h4>
+      <h4 class="font-medium">Artikel Sebelumnya</h4>
 
-      <SmartLink v-if="prev" :href="`/blog/gonderi/${prev.slug}`">
+      <SmartLink v-if="prev" :href="`/blog/artikel/${prev.slug}`">
         <h5>{{ prev.title }}</h5>
       </SmartLink>
 
@@ -52,9 +52,9 @@ export default Vue.extend({
     </div>
 
     <div class="text-right">
-      <h4 class="font-medium">Sonraki Gönderi</h4>
+      <h4 class="font-medium">Artikel Selanjutnya</h4>
 
-      <SmartLink v-if="next" :href="`/blog/gonderi/${next.slug}`">
+      <SmartLink v-if="next" :href="`/blog/artikel/${next.slug}`">
         <h5>{{ next.title }}</h5>
       </SmartLink>
 

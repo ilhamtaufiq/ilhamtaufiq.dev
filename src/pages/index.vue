@@ -160,7 +160,7 @@ export default Vue.extend({
 
     const repos: Repository[] = (
       await this.$axios.get(
-        "https://api.github.com/users/eggsy/repos?per_page=100"
+        "https://api.github.com/users/ilhamtaufiq/repos?per_page=100"
       )
     ).data
 

@@ -50,11 +50,11 @@ export default Vue.extend({
 
     const title = post.title
     const description =
-      post.description || "EGGSY'nin blogunda bu yazıyı okumaya davet edildin."
+      post.description || "Ilham's Personal Website."
 
     const image = getPostImage
     const tags = getTags?.join(", ") || title
-    const href = `https://eggsy.xyz${this.$route?.path}`
+    const href = `https://ilham-rocks.vercel.app${this.$route?.path}`
 
     return {
       bodyAttrs: {
@@ -119,8 +119,8 @@ export default Vue.extend({
      */
     getPostImage(): string {
       return this.post?.image
-        ? `https://eggsy.xyz/${this.post?.image}`
-        : `https://eggsy.xyz/assets/images/posts/${this.post?.slug}.jpg`
+        ? `https://ilham-rocks.vercel.app/${this.post?.image}`
+        : `https://ilham-rocks.vercel.app/assets/images/posts/${this.post?.slug}.jpg`
     },
   },
 })
@@ -150,7 +150,7 @@ export default Vue.extend({
               :class="!post.header ? 'pl-0 pr-2 text-gray-500 dark:text-gray-400' : 'px-2'"
             >
               <IconClock class="h-4 w-4" />
-              <div>{{ getReadingTime }} dakika okuma</div>
+              <div>{{ getReadingTime }} Menit</div>
             </div>
 
             <div
@@ -185,8 +185,8 @@ export default Vue.extend({
 
         <Disqus
           :title="post.title"
-          :url="`https://eggsy.xyz/blog/gonderi/${post.slug}`"
-          :identifier="`/blog/gonderi/${post.slug}`"
+          :url="`https://ilham-rocks.vercel.app/blog/artikel/${post.slug}`"
+          :identifier="`/blog/artikel/${post.slug}`"
           :slug="post.slug"
           lang="tr"
           class="mt-10"
@@ -196,13 +196,13 @@ export default Vue.extend({
           <BlogPrevNext :current-slug="post.slug" />
 
           <div>
-            <h3 class="font-medium text-lg mb-1 text-gray-900 dark:text-gray-100">Yazıyı paylaş</h3>
+            <h3 class="font-medium text-lg mb-1 text-gray-900 dark:text-gray-100">Bagikan</h3>
 
             <BlogShare :title="post.title" :path="$route.path" />
           </div>
 
           <div v-if="getTags.length > 0">
-            <h3 class="font-medium text-lg mb-1 text-gray-900 dark:text-gray-100">Etiketler</h3>
+            <h3 class="font-medium text-lg mb-1 text-gray-900 dark:text-gray-100">Tag</h3>
 
             <div class="flex flex-wrap space-x-2">
               <SmartLink
@@ -222,13 +222,13 @@ export default Vue.extend({
           <div v-if="getRelatedPosts.length > 0">
             <h3
               class="font-medium text-lg mb-1 text-gray-900 dark:text-gray-100"
-            >Bunlar da hoşunuza gidebilir</h3>
+            >Anda mungkin juga menyukai ini</h3>
 
             <div class="grid gap-2 sm:grid-cols-3">
               <SmartLink
                 v-for="(relatedPost, index) in getRelatedPosts"
                 :key="`related-${index}`"
-                :href="`/blog/gonderi/${relatedPost.slug}`"
+                :href="`/blog/artikel/${relatedPost.slug}`"
                 class="rounded-lg bg-gray-200 bg-opacity-40 text-center p-4 transition-shadow text-gray-800 truncate dark:(bg-gray-800 text-gray-200) hover:shadow-md "
               >{{ relatedPost.title }}</SmartLink>
             </div>
