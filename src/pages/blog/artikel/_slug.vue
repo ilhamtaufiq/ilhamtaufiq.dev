@@ -188,7 +188,7 @@ export default Vue.extend({
           :url="`https://ilham-rocks.vercel.app/blog/artikel/${post.slug}`"
           :identifier="`/blog/artikel/${post.slug}`"
           :slug="post.slug"
-          lang="tr"
+          lang="id"
           class="mt-10"
         />
 

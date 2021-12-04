@@ -16,8 +16,8 @@ export default Vue.extend({
             to: "/#projects",
           },
           {
-            title: "Daily",
-            to: "/daily",
+            title: "Mixtape",
+            to: "/mixtape",
           },
         ],
         premid: [

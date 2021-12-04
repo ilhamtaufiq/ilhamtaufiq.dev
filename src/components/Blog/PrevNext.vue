@@ -48,7 +48,7 @@ export default Vue.extend({
         <h5>{{ prev.title }}</h5>
       </SmartLink>
 
-      <h5 v-else class="line-through">Daha Eski Bir Gönderi Yok</h5>
+      <h5 v-else class="line-through">Tidak Ada Artikel Lama</h5>
     </div>
 
     <div class="text-right">
@@ -58,7 +58,7 @@ export default Vue.extend({
         <h5>{{ next.title }}</h5>
       </SmartLink>
 
-      <h5 v-else class="line-through">Daha Yeni Bir Gönderi Yok</h5>
+      <h5 v-else class="line-through">Tidak Ada Artikel Terbaru</h5>
     </div>
   </div>
 </template>

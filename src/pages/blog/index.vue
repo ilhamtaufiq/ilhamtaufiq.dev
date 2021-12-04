@@ -15,8 +15,8 @@ export default Vue.extend({
         linux: [] as Post[],
         rest: [] as Post[],
       },
-      categories: ["Discord", "Linux", "Eğitim", "Frontend", "Site"],
-      selectedCategory: "Discord"
+      categories: ["Catatan", "Linux", "Poem", "Frontend", "Site"],
+      selectedCategory: "Catatan"
     }
   },
   async fetch() {
