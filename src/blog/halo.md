@@ -1,6 +1,6 @@
 ---
-title: Budaya Menyalahkan
-description: Kenapa Menyalahkan Orang Lain?
+title: Halo
+description: Selamat Datang!
 tags:
   - catatan
 createdAt: 2021-08-12
