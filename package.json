@@ -1,14 +1,14 @@
 {
-  "name": "ilham-rocks",
+  "name": "ilham-taufiq.dev",
   "description": "Ilham's Personal Website",
   "license": "MIT",
   "version": "4.0.0",
-  "homepage": "https://ilham-rocks.vercel.app",
+  "homepage": "https://www.ilhamtaufiq.dev",
   "readme": "https://github.com/ilhamtaufiq/ilham-rocks#readme",
   "author": {
     "name": "Ilham Taufiq",
     "email": "ilhamtaufiq@gmail.com",
-    "url": "https://ilham-rocks.vercel.app"
+    "url": "https://www.ilhamtaufiq.dev"
   },
   "bugs": {
     "email": "ilhamtaufiq@gmail.com",

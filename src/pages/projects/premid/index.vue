@@ -33,12 +33,12 @@ export default Vue.extend({
         description,
         image,
         keywords: "premid, custom, status",
-        url: "https://ilham-rocks.vercel.app/projects/premid",
+        url: "https://www.ilhamtaufiq.dev/projects/premid",
       }),
       link: [
         {
           rel: "canonical",
-          href: "https://ilham-rocks.vercel.app/projects/premid",
+          href: "https://www.ilhamtaufiq.dev/projects/premid",
         },
       ],
     }

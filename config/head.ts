@@ -1,12 +1,12 @@
 import { NuxtOptionsHead } from "@nuxt/types/config/head"
 
 /* Define constants */
-const image = "https://ilham-rocks.vercel.app/icon.png"
+const image = "https://www.ilhamtaufiq.dev/icon.png"
 const description =
   "Ilham's Blog"
 
 const Head: NuxtOptionsHead = {
-  title: "ilham-rocks.vercel.app",
+  title: "Ilham",
   meta: [
     { charset: "utf-8" },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -34,7 +34,7 @@ const Head: NuxtOptionsHead = {
     {
       hid: "twitter:title",
       name: "twitter:title",
-      content: "ilham-rocks.vercel.app",
+      content: "www.ilhamtaufiq.dev",
     },
     {
       hid: "twitter:description",
@@ -55,7 +55,7 @@ const Head: NuxtOptionsHead = {
     {
       hid: "og:site_name",
       name: "og:site_name",
-      content: "ilham-rocks.vercel.app",
+      content: "www.ilhamtaufiq.dev",
     },
     {
       hid: "og:description",
@@ -82,13 +82,13 @@ const Head: NuxtOptionsHead = {
     {
       rel: "icon",
       type: "image/x-icon",
-      href: "https://ilham-rocks.vercel.app/assets/icons/icon.ico",
+      href: "https://www.ilhamtaufiq.dev/assets/icons/icon.ico",
     },
     {
       rel: "search",
       type: "application/opensearchdescription+xml",
       title: "Ilham's Blog",
-      href: "https://ilham-rocks.vercel.app/opensearch.xml",
+      href: "https://www.ilhamtaufiq.dev/opensearch.xml",
     },
   ],
 }

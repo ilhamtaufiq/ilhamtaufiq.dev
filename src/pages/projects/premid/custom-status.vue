@@ -63,12 +63,12 @@ export default Vue.extend({
         description,
         image,
         keywords: "premid, custom, status",
-        url: "https://ilham-rocks.vercel.app/projects/premid/custom-status",
+        url: "https://www.ilhamtaufiq.dev/projects/premid/custom-status",
       }),
       link: [
         {
           rel: "canonical",
-          href: "https://ilham-rocks.vercel.app/projects/premid/custom-status",
+          href: "https://www.ilhamtaufiq.dev/projects/premid/custom-status",
         },
         {
           rel: "prefetch",
@@ -429,7 +429,7 @@ export default Vue.extend({
                 v-model="presence.buttons[0].url"
                 type="text"
                 class="w-full"
-                placeholder="https://ilham-rocks.vercel.app"
+                placeholder="https://www.ilhamtaufiq.dev"
               />
             </div>
 

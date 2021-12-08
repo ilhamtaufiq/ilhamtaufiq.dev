@@ -97,7 +97,7 @@ export default Vue.extend({
       link: [
         {
           rel: "canonical",
-          href: "https://ilham-rocks.vercel.app/projects/premid/mdcreator",
+          href: "https://www.ilhamtaufiq.dev/projects/premid/mdcreator",
         },
       ],
       meta: this.$prepareMeta({
@@ -105,7 +105,7 @@ export default Vue.extend({
         description,
         image,
         keywords: "premid, custom, status",
-        url: "https://ilham-rocks.vercel.app/projects/premid/mdcreator",
+        url: "https://www.ilhamtaufiq.dev/projects/premid/mdcreator",
       }),
     }
   },

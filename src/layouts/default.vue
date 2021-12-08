@@ -3,8 +3,8 @@ import Vue from "vue"
 
 export default Vue.extend({
   head() {
-    let string = "ilham-rocks.vercel.app"
-    if (this.routeIsBlog) string = "ilham-rocks.vercel.app - blog"
+    let string = "www.ilhamtaufiq.dev"
+    if (this.routeIsBlog) string = "www.ilhamtaufiq.dev - blog"
 
     return {
       titleTemplate: `%s - ${string}`,

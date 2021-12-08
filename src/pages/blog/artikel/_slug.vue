@@ -54,7 +54,7 @@ export default Vue.extend({
 
     const image = getPostImage
     const tags = getTags?.join(", ") || title
-    const href = `https://ilham-rocks.vercel.app${this.$route?.path}`
+    const href = `https://www.ilhamtaufiq.dev${this.$route?.path}`
 
     return {
       bodyAttrs: {
@@ -119,8 +119,8 @@ export default Vue.extend({
      */
     getPostImage(): string {
       return this.post?.image
-        ? `https://ilham-rocks.vercel.app/${this.post?.image}`
-        : `https://ilham-rocks.vercel.app/assets/images/posts/${this.post?.slug}.jpg`
+        ? `https://www.ilhamtaufiq.dev/${this.post?.image}`
+        : `https://www.ilhamtaufiq.dev/assets/images/posts/${this.post?.slug}.jpg`
     },
   },
 })
@@ -185,7 +185,7 @@ export default Vue.extend({
 
         <Disqus
           :title="post.title"
-          :url="`https://ilham-rocks.vercel.app/blog/artikel/${post.slug}`"
+          :url="`https://www.ilhamtaufiq.dev/blog/artikel/${post.slug}`"
           :identifier="`/blog/artikel/${post.slug}`"
           :slug="post.slug"
           lang="id"

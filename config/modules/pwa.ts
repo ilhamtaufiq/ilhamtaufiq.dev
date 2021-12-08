@@ -1,7 +1,7 @@
 export default {
   manifest: {
-    name: "ilham-rocks.vercel.app",
-    short_name: "ilham-rocks.vercel.app",
+    name: "www.ilhamtaufiq.dev",
+    short_name: "www.ilhamtaufiq.dev",
     theme_color: "#f56565",
     lang: "en",
   },

@@ -8,7 +8,7 @@ export default async function () {
   }
 
   return {
-    hostname: "https://ilham-rocks.vercel.app",
+    hostname: "https://www.ilhamtaufiq.dev",
     gzip: true,
     routes,
   }

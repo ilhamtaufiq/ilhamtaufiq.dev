@@ -1,5 +1,5 @@
 const Feed = () => {
-  const baseUrlArticles = "https://ilham-rocks.vercel.app/blog"
+  const baseUrlArticles = "https://www.ilhamtaufiq.dev/blog"
 
   const feedFormats = {
     rss: { type: "rss2", file: "rss.xml" },
@@ -20,7 +20,7 @@ const Feed = () => {
 
     articles.forEach((article: any) => {
       const url = `${baseUrlArticles}/artikel/${article.slug}`
-      const postImagesPath = "https://ilham-rocks.vercel.app/assets/images/posts"
+      const postImagesPath = "https://www.ilhamtaufiq.dev/assets/images/posts"
 
       feed.addItem({
         title: article.title,

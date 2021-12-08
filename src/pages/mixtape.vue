@@ -35,7 +35,7 @@ export default Vue.extend({
     const title = "Song Recommendations"
     const description =
       "Looking for someone else's song recommendations? Here it is! I built a system just for you: Fresh, new songs every day!"
-    const image = "https://ilham-rocks.vercel.app/assets/meta/images/daily.jpg"
+    const image = "https://www.ilhamtaufiq.dev/assets/meta/images/daily.jpg"
 
     return {
       title,
@@ -44,12 +44,12 @@ export default Vue.extend({
         description,
         image,
         keywords: "daily, song, recommendation",
-        url: "https://ilham-rocks.vercel.app/daily",
+        url: "https://www.ilhamtaufiq.dev/daily",
       }),
       link: [
         {
           rel: "canonical",
-          href: `https://ilham-rocks.vercel.app/daily`,
+          href: `https://www.ilhamtaufiq.dev/daily`,
         },
       ],
     }

@@ -3,6 +3,6 @@
     <ShortName>Ilham's Blog</ShortName>
     <Description>Ilham's Personal Blog</Description>
     <InputEncoding>UTF-8</InputEncoding>
-    <Image height="16" width="16" type="image/x-icon">https://ilham-rocks.vercel.app/assets/icons/icon.ico</Image>
+    <Image height="16" width="16" type="image/x-icon">https://www.ilhamtaufiq.dev/assets/icons/icon.ico</Image>
     <Url type="text/html" method="get" template="https://eggsy.xyz/blog/?q={searchTerms}" />
 </OpenSearchDescription>
