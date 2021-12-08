@@ -31,11 +31,11 @@ export default Vue.extend({
       repos: [] as Repository[],
       projects: [
         // {
-        //   title: "PreMiD",
+        //   title: "Judul",
         //   description:
-        //     "PreMiD is a simple, configurable utility that allows you to show what you're doing on the web in your Discord now playing status.",
-        //   image: "https://i.vgy.me/rhHgcJ.jpg",
-        //   to: "/projects/premid",
+        //     "Deskripsi",
+        //   image: "imageto.jpg",
+        //   to: "/projects/nama_project",
         // },
         {
           title: "This Website",
@@ -44,65 +44,15 @@ export default Vue.extend({
           image: "https://imagizer.imageshack.com/img924/4027/ORemcY.png",
           to: "/",
         },
-        // {
-        //   title: "Unblock Please",
-        //   description:
-        //     "Unblock Imgur and Pastebin access using secure proxies!",
-        //   image: "https://i.imgur.com/1NxPOjN.png",
-        //   to: "/projects/unblock-please",
-        // },
-        // {
-        //   title: "is-inside.me",
-        //   description:
-        //     "Free image and file uploading service for uploaders like ShareX!",
-        //   image: "https://i.imgur.com/68IChiq.png",
-        //   to: "/projects/is-inside-me",
-        // },
       ] as Project[],
       experiences: {
         jobs: [
-          {
-            title: "Discord Templates",
-            url: "https://discords.com/templates",
-            position: "Web Developer & Co-Founder",
-            date: "2020-2021",
-          },
-          {
-            title: "IZM Game Studios",
-            url: "https://izmgamestudios.com",
-            position: "Solution Partner",
-            date: "2020-2021",
-          },
-          {
-            title: "TruckersMP",
-            url: "https://truckersmp.com/user/1648033",
-            position: "Community Moderator & Translator",
-            date: "2020-2021",
-          },
-          {
-            title: "WA Web+ Extension",
-            url: "https://wawplus.com",
-            position: "Translator",
-            date: "2020-2021",
-          },
-          {
-            title: "Batakköylü Düğün Salonu",
-            url: "https://batakkoylu.netlify.app",
-            position: "Web Developer",
-            date: "2020-2020",
-          },
-          {
-            title: "EGGSY's Discord Bot",
-            url: "https://top.gg/bot/eggsy",
-            position: "Creator, Developer and Maintainer",
-            date: "2017-2019",
-          },
-          {
-            title: "Discord Bot List",
-            url: "https://top.gg/user/162969778699501569",
-            position: "Website Moderator",
-            date: "2017-2018",
-          },
+          // {
+          //   title: "Judul",
+          //   url: "#",
+          //   position: "Posisi",
+          //   date: "2020-2021",
+          // },
         ],
         education: [
           {
@@ -133,9 +83,9 @@ export default Vue.extend({
   fetchOnServer: false,
   async fetch() {
     const filter = [
-      "eggsy",
+      "ilhamtaufiq",
       "DBM",
-      "eggsywashere.github.io",
+      "github.com/ilhamtaufiq",
       "bu-saatte-cekilir-mi",
     ]
 
