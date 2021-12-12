@@ -1,5 +1,5 @@
 const Feed = () => {
-  const baseUrlArticles = "https://www.ilhamtaufiq.dev/blog"
+  const baseUrlArticles = "https://ilhamtaufiq.dev/blog"
 
   const feedFormats = {
     rss: { type: "rss2", file: "rss.xml" },
@@ -12,7 +12,7 @@ const Feed = () => {
     feed.options = {
       title: "Ilhams's Blog",
       description:
-        "Ilham's Personal",
+        "Ilham's Personal Blog",
       link: baseUrlArticles,
     }
 
@@ -20,7 +20,7 @@ const Feed = () => {
 
     articles.forEach((article: any) => {
       const url = `${baseUrlArticles}/artikel/${article.slug}`
-      const postImagesPath = "https://www.ilhamtaufiq.dev/assets/images/posts"
+      const postImagesPath = "https://ilhamtaufiq.dev/assets/images/posts"
 
       feed.addItem({
         title: article.title,

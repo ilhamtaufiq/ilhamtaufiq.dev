@@ -54,7 +54,7 @@ export default Vue.extend({
 
     const image = getPostImage
     const tags = getTags?.join(", ") || title
-    const href = `https://www.ilhamtaufiq.dev${this.$route?.path}`
+    const href = `https://ilhamtaufiq.dev${this.$route?.path}`
 
     return {
       bodyAttrs: {
@@ -119,8 +119,8 @@ export default Vue.extend({
      */
     getPostImage(): string {
       return this.post?.image
-        ? `https://www.ilhamtaufiq.dev/${this.post?.image}`
-        : `https://www.ilhamtaufiq.dev/assets/images/posts/${this.post?.slug}.jpg`
+        ? `https://ilhamtaufiq.dev/${this.post?.image}`
+        : `https://ilhamtaufiq.dev/assets/images/posts/${this.post?.slug}.jpg`
     },
   },
 })
@@ -185,7 +185,7 @@ export default Vue.extend({
 
         <Disqus
           :title="post.title"
-          :url="`https://www.ilhamtaufiq.dev/blog/artikel/${post.slug}`"
+          :url="`https://ilhamtaufiq.dev/blog/artikel/${post.slug}`"
           :identifier="`/blog/artikel/${post.slug}`"
           :slug="post.slug"
           lang="id"

@@ -29,7 +29,7 @@ const Firebase: Plugin = ({ $fire, $moment_tz }, inject) => {
     const docs: Song[] = []
 
     await ref
-      .where("date", "<=", $moment_tz().tz("Europe/Istanbul").toDate())
+      .where("date", "<=", $moment_tz().tz("Asia/Jakarta").toDate())
       .orderBy("date", "desc")
       .limit(limit)
       .get()

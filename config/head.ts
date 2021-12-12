@@ -1,7 +1,7 @@
 import { NuxtOptionsHead } from "@nuxt/types/config/head"
 
 /* Define constants */
-const image = "https://www.ilhamtaufiq.dev/icon.png"
+const image = "https://ilhamtaufiq.dev/icon.png"
 const description =
   "Ilham's Blog"
 
@@ -34,7 +34,7 @@ const Head: NuxtOptionsHead = {
     {
       hid: "twitter:title",
       name: "twitter:title",
-      content: "www.ilhamtaufiq.dev",
+      content: "ilhamtaufiq.dev",
     },
     {
       hid: "twitter:description",
@@ -55,7 +55,7 @@ const Head: NuxtOptionsHead = {
     {
       hid: "og:site_name",
       name: "og:site_name",
-      content: "www.ilhamtaufiq.dev",
+      content: "ilhamtaufiq.dev",
     },
     {
       hid: "og:description",
@@ -82,13 +82,13 @@ const Head: NuxtOptionsHead = {
     {
       rel: "icon",
       type: "image/x-icon",
-      href: "https://www.ilhamtaufiq.dev/assets/icons/icon.ico",
+      href: "https://ilhamtaufiq.dev/assets/icons/icon.ico",
     },
     {
       rel: "search",
       type: "application/opensearchdescription+xml",
       title: "Ilham's Blog",
-      href: "https://www.ilhamtaufiq.dev/opensearch.xml",
+      href: "https://ilhamtaufiq.dev/opensearch.xml",
     },
   ],
 }

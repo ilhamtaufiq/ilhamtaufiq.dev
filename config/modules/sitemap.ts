@@ -8,7 +8,7 @@ export default async function () {
   }
 
   return {
-    hostname: "https://www.ilhamtaufiq.dev",
+    hostname: "https://ilhamtaufiq.dev",
     gzip: true,
     routes,
   }

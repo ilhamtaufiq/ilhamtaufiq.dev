@@ -3,12 +3,12 @@
   "description": "Ilham's Personal Website",
   "license": "MIT",
   "version": "4.0.0",
-  "homepage": "https://www.ilhamtaufiq.dev",
+  "homepage": "https://ilhamtaufiq.dev",
   "readme": "https://github.com/ilhamtaufiq/ilham-rocks#readme",
   "author": {
     "name": "Ilham Taufiq",
     "email": "ilhamtaufiq@gmail.com",
-    "url": "https://www.ilhamtaufiq.dev"
+    "url": "https://ilhamtaufiq.dev"
   },
   "bugs": {
     "email": "ilhamtaufiq@gmail.com",
