@@ -10,7 +10,7 @@ export default Vue.extend({
     getLocalizedNotice(): string {
       if (this.$route.name?.includes("blog"))
         return "Ilham Taufiq"
-      else return "This website is open-source on GitHub"
+      else return "2021"
     },
   },
 })

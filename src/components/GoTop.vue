@@ -46,7 +46,7 @@ export default Vue.extend({
       class="rounded-full cursor-pointer flex bg-gray-200 p-2 text-gray-500 items-center dark:bg-gray-800 hover:shadow-md"
       @click="goTop"
     >
-      <IconChevron up class="h-6 w-6" />
+      <h1>☝️</h1>
     </div>
   </transition>
 </template>

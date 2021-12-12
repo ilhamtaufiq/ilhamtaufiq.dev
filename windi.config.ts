@@ -8,7 +8,8 @@ export default defineConfig({
   darkMode: "class",
   theme: {
     fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      sans: ["Nunito Sans","sans-serif"],
+      // sans: ["Nunito Sans","sans-serif"],
     },
   },
   plugins: [lineClamp],

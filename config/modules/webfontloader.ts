@@ -1,8 +1,8 @@
 export default {
   custom: {
-    families: ["Inter"],
+    families: ["Nunito Sans"],
     urls: [
-      "https://fonts.googleapis.com/css?family=Inter:wght@400;500;600;700&display=swap",
+      "https://fonts.googleapis.com/css?family=Nunito+Sans:wght@400;500;600;700&display=swap",
     ],
   },
 }
