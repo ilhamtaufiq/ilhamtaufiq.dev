@@ -128,14 +128,19 @@ export default Vue.extend({
             <SmartLink href="https://windicss.org/" class="description-link" blank>Windi CSS</SmartLink>. -->
           </p>
         </div>
-
-        <Status class="mt-4" />
       </div>
 
       <div class="rounded-full h-40 mb-4 w-40 md:mb-0">
         <SmartImage src="/assets/images/memoji.png" class="rounded-full h-40 w-40" />
       </div>
     </header>
+    <section>
+      <p
+        class="font-semibold mt-10 text-2xl text-gray-900 dark:text-gray-100"
+      >Listening to</p>
+      <p><img src="https://np.ilhamtaufiq.dev/api?scan=true" alt="NP"></p>
+
+    </section>
 
     <section id="projects">
       <h2
