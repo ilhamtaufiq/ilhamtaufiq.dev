@@ -79,6 +79,20 @@ const Head: NuxtOptionsHead = {
     return i
   }),
   link: [
+    // apple
+    { rel:'apple-touch-icon', sizes:'180x180', href:'/src/static/apple-icon-180.png' },
+    { rel:'apple-touch-icon', sizes:'167x167', href:'/src/static/apple-icon-167.png' },
+    { rel:'apple-touch-icon', sizes:'152x152', href:'/src/static/apple-icon-152.png' },
+    { rel:'apple-touch-icon', sizes:'120x120', href:'/src/static/apple-icon-120.png' },
+    {
+    rel:'apple-touch-startup-image', href:'/src/static/apple-splash-2048-2732.png',
+    media:'(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)'
+    },
+    {
+    rel:'apple-touch-startup-image', href:'/src/static/apple-splash-1136-640.png',
+    media:'(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)'
+    },
+
     {
       rel: "icon",
       type: "image/x-icon",
