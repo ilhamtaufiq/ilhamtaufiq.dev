@@ -65,9 +65,9 @@ export default Vue.extend({
     }
   },
   head() {
-    const title = "EGGSY's Blog"
+    const title = "Ilhams's Blog"
     const description =
-      "EGGSY'nin günlük hayattan, tecrübelerinden bahsettiği, göstermek veya anlatmak istediği şeyleri daha düzenli ve profesyonel bir şekilde tuttuğu blog sayfası."
+      "Personal Blog"
 
     return {
       title: "Blog",

@@ -4,7 +4,7 @@ import Vue from "vue"
 export default Vue.extend({
   head() {
     let string = "ilhamtaufiq"
-    if (this.routeIsBlog) string = "ilhamtaufiq - blog"
+    if (this.routeIsBlog) string = "ilhamtaufiq"
 
     return {
       titleTemplate: `%s - ${string}`,
