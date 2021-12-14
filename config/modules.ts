@@ -8,6 +8,7 @@ import sitemap from "./modules/sitemap"
 import webfontloader from "./modules/webfontloader"
 
 const Modules: NuxtOptionsModule[] = [
+  "nuxt-leaflet",
   "@nuxtjs/axios",
   "@nuxtjs/robots",
   ["@nuxtjs/pwa", pwa],

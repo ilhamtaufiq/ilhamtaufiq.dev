@@ -27,6 +27,7 @@ interface ExperienceObject {
 export default Vue.extend({
   data() {
     return {
+      spotify: "https://np.ilhamtaufiq.dev/api?scan=true",
       showModal: false,
       repos: [] as Repository[],
       projects: [
@@ -84,9 +85,8 @@ export default Vue.extend({
   async fetch() {
     const filter = [
       "ilhamtaufiq",
-      "DBM",
       "github.com/ilhamtaufiq",
-      "bu-saatte-cekilir-mi",
+      "https://np.ilhamtaufiq.dev/api?scan=true",
     ]
 
     const repos: Repository[] = (
@@ -138,8 +138,7 @@ export default Vue.extend({
       <p
         class="font-semibold mt-10 text-2xl text-gray-900 dark:text-gray-100"
       >Listening to</p>
-      <p><img src="https://np.ilhamtaufiq.dev/api?scan=true" alt="NP"></p>
-
+      <p><img :src="`${spotify}`" alt="NP"></p>
     </section>
 
     <section id="projects">
