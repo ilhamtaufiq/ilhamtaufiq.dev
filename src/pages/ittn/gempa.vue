@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-4 py-8">
     <div>
-      <h1 class="text-2xl text-gray-900 dark:text-gray-200">Informasi Gempa 📢</h1>
+      <h1 class="text-2xl text-gray-900 dark:text-gray-200">Informasi Gempabumi 📢</h1>
     </div>
 
     <div
