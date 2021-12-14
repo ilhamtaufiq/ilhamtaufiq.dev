@@ -47,6 +47,9 @@ import axios from 'axios';
       trends: {},
       }
     },
+  mounted() {
+     if (!this.loaded) this.$fetch()
+  },
     async fetch() {
       const { data } = await axios.get(
         `https://api-twitter-trends.herokuapp.com/trends?location=indonesia`
