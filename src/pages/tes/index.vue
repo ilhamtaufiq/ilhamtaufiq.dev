@@ -20,6 +20,7 @@
               </ul>
           </div>
         </div>
+        <button style="color:green;" @click="$fetch">Refresh</button>
       </div>
 </header>
 
