@@ -1,9 +1,9 @@
 <template>
   <div class="space-y-4 py-8">
     <div>
-      <h1 class="text-2xl text-gray-900 dark:text-gray-100">Indonesia Twitter Trends Now...</h1>
+      <h1 class="text-2xl text-gray-900 dark:text-gray-100">Indonesia Twitter Trends Now🔥</h1>
 
-      <p class="text-lg text-gray-700 dark:text-gray-300">🔥</p>
+      <p class="text-lg text-gray-700 dark:text-gray-300"></p>
     </div>
 
     <div
