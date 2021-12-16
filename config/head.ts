@@ -82,7 +82,7 @@ const Head: NuxtOptionsHead = {
     {
       rel: "icon",
       type: "image/x-icon",
-      href: "https://ilhamtaufiq.dev/assets/icons/icon.ico",
+      href: "/assets/icons/icon.ico",
     },
     {
       rel: "search",

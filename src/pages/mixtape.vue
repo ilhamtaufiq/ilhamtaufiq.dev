@@ -114,9 +114,8 @@ export default Vue.extend({
   <div class="space-y-6 py-4">
     <BlogNotification v-if="isThereNoSongToday === true" type="warning">
       <p>
-        There's no song for today, check back later or wait for the next day until
-        I find some time to add new songs! You can listen to the older ones if you
-        wish to!
+        Tidak ada lagu baru untuk hari ini, periksa kembali nanti atau tunggu besok harinya sampai
+        saya menemukan waktu untuk menambahkan lagu baru :)
       </p>
     </BlogNotification>
 
@@ -134,7 +133,7 @@ export default Vue.extend({
 
       <div class="space-y-2 w-full">
         <div class="rounded-md bg-gray-200/40 p-4 truncate dark:bg-gray-800">
-          <h3 class="font-semibold text-lg text-gray-900 dark:text-gray-100">Title</h3>
+          <h3 class="font-semibold text-lg text-gray-900 dark:text-gray-100">Judul</h3>
 
           <SkeletonLoader
             v-if="$fetchState.pending || $fetchState.error"
@@ -145,7 +144,7 @@ export default Vue.extend({
         </div>
 
         <div class="rounded-md bg-gray-200/40 p-4 truncate dark:bg-gray-800">
-          <h3 class="font-semibold text-lg text-gray-900 dark:text-gray-100">Artist</h3>
+          <h3 class="font-semibold text-lg text-gray-900 dark:text-gray-100">Artis</h3>
 
           <SkeletonLoader
             v-if="$fetchState.pending || $fetchState.error"
@@ -159,7 +158,7 @@ export default Vue.extend({
         </div>
 
         <div class="rounded-md bg-gray-200/40 p-4 truncate dark:bg-gray-800">
-          <h3 class="font-semibold text-lg text-gray-900 dark:text-gray-100">Date</h3>
+          <h3 class="font-semibold text-lg text-gray-900 dark:text-gray-100">Tanggal</h3>
 
           <SkeletonLoader
             v-if="$fetchState.pending || $fetchState.error"
@@ -172,7 +171,7 @@ export default Vue.extend({
     </div>
 
     <div>
-      <h3 class="font-semibold text-xl text-gray-900 dark:text-gray-100">Older Songs</h3>
+      <h3 class="font-semibold text-xl text-gray-900 dark:text-gray-100">Lagu Lainnya</h3>
 
       <div class="mt-4 grid gap-2 sm:grid-cols-2 md:grid-cols-3">
         <template v-if="$fetchState.pending === true">

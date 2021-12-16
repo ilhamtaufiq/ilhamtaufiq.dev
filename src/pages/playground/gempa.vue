@@ -76,8 +76,7 @@ import axios from 'axios';
     },
     head() {
     const title = "Info Gempabumi"
-    const description =
-      "Info Gempabumi dari BMKG"
+    const description = this.gempa.wilayah
     const image = this.gempa.shakemap
 
     return {

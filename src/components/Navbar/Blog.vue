@@ -62,8 +62,8 @@ export default Vue.extend({
     >
       <SmartLink :href="{ name: getTargetRoute.name }" class="flex-shrink-0 h-10 w-10">
         <SmartImage
-          src="/assets/icons/icon.svg"
-          class="rounded-md bg-gray-100 ring-black transition-transform ring-2 ring-opacity-5 sm:transform hover:-rotate-6"
+          src="/assets/icons/icon.png"
+          class="rounded-md ring-black transition-transform ring-2 ring-opacity-5 sm:transform hover:-rotate-6"
           width="100"
           height="100"
           :title="getTargetRoute.title"
