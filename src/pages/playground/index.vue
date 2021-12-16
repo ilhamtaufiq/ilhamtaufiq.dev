@@ -20,8 +20,9 @@ export default {
       subtitle: 'Tempat bermain API',
     }
     },
-  head: {
-    title: 'Playground',
+  head() {
+    return {
+    title: this.title,  
     meta: [
       {
         hid: 'playground',
@@ -29,6 +30,7 @@ export default {
         content: 'Tempat bermain API'
       }
     ],
+    }
   }
 }
 </script>

@@ -71,8 +71,32 @@ import axios from 'axios';
         fillColor: '#f03',
         fillOpacity: 0.5,
       },
+      title: 'Info Gempabumi',
       }
     },
+    head() {
+    const title = "Info Gempabumi"
+    const description =
+      "Info Gempabumi dari BMKG"
+    const image = this.gempa.shakemap
+
+    return {
+      title,
+      meta: this.$prepareMeta({
+        title,
+        description,
+        image,
+        keywords: "gempabumi, bmkg, info",
+        url: "https://ilhamtaufiq.dev/playground/gempa",
+      }),
+      link: [
+        {
+          rel: "canonical",
+          href: `https://ilhamtaufiq.dev/playground/gempa`,
+        },
+      ],
+    }
+  },
   mounted() {
     if (!this.loaded) this.$fetch();
     this.ls = this.gempa.lintang.replace("LS",'').trim();  
