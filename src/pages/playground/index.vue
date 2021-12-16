@@ -1,8 +1,8 @@
 <template>
   <div class="text-gray-500 dark:text-neutral-700">
     <header class="space-y-2 my-12">
-      <h1 style="color: white;" class="text-gray-900 text-4xl dark:text-neutral-300">Playground</h1>
-      <p>Fitur gabut</p>
+      <h1 style="color: white;" class="text-gray-900 text-4xl dark:text-neutral-300">{{title}}</h1>
+      <p>{{subtitle}}</p>
     </header>
 
     <div class="grid gap-4 md:grid-cols-2">
@@ -12,3 +12,23 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  data(){
+    return {
+      title: 'Playground',
+      subtitle: 'Tempat bermain API',
+    }
+    },
+  head: {
+    title: 'Playground',
+    meta: [
+      {
+        hid: 'playground',
+        name: 'playground',
+        content: 'Tempat bermain API'
+      }
+    ],
+  }
+}
+</script>
