@@ -1,3 +1,32 @@
+<script>
+function showStatus(online) {
+  const statusEl = document.querySelector('.network-status');
+
+  if (online) {
+    statusEl.classList.remove('warning');
+    statusEl.classList.add('success');
+    statusEl.innerText = `You're online! 😄`;
+  } else {
+    statusEl.classList.remove('success');
+    statusEl.classList.add('warning');
+    statusEl.innerText = `You're offline! 😢`;
+  }
+}
+
+window.addEventListener('load', () => {
+  // 1st, we set the correct status when the page loads
+  navigator.onLine ? showStatus(true) : showStatus(false);
+
+  // now we listen for network status changes
+  window.addEventListener('online', () => {
+    showStatus(true);
+  });
+
+  window.addEventListener('offline', () => {
+    showStatus(false);
+  });
+});
+</script>
 <script lang="ts">
 import Vue from "vue"
 
@@ -127,6 +156,11 @@ export default Vue.extend({
             {{ "" }} and
             <SmartLink href="https://windicss.org/" class="description-link" blank>Windi CSS</SmartLink>. -->
           </p>
+          <BlogNotification v-if="$nuxt.isOffline === true" type="warning">
+            <p>
+              Koneksi Internet Kamu Terputus
+            </p>
+          </BlogNotification>
         </div>
       </div>
 

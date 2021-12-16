@@ -109,9 +109,15 @@ export default Vue.extend({
   },
 })
 </script>
-
 <template>
-  <div class="space-y-6 py-4">
+    <div class="space-y-6 py-4" v-if="$nuxt.isOffline === true">
+              <BlogNotification type="warning">
+                <p>
+                  Koneksi Internet Kamu Terputus
+                </p>
+              </BlogNotification>
+    </div>
+  <div class="space-y-6 py-4" v-else>
     <BlogNotification v-if="isThereNoSongToday === true" type="warning">
       <p>
         Tidak ada lagu baru untuk hari ini, periksa kembali nanti atau tunggu besok harinya sampai
