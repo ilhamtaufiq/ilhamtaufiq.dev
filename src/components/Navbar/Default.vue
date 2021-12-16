@@ -12,8 +12,8 @@ export default Vue.extend({
             to: "/blog/",
           },
           {
-            title: "Projects",
-            to: "/#projects",
+            title: "Playground",
+            to: "/playground",
           },
           {
             title: "Mixtape",

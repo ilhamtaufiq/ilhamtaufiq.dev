@@ -5,7 +5,6 @@
 
       <p class="text-lg text-gray-700 dark:text-gray-300"></p>
     </div>
-
     <div
       class="rounded space-y-4 bg-gray-200 p-4 items-center md:(flex space-y-0 space-x-4) dark:(bg-gray-800 text-gray-200) "
     >
@@ -15,7 +14,6 @@
           class="rounded md:h-50 md:w-50"
         />
       </div>
-
       <div class="space-y-4 whitespace-normal">
         <div class="flex flex-col">
           <h3 class="font-semibold text-gray-800 dark:text-gray-200">Trending: {{trends[0].time}}</h3>

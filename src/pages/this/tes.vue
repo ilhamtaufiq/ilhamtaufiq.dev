@@ -59,37 +59,14 @@ export default Vue.extend({
 <template>
   <div class="text-gray-500 dark:text-neutral-700">
     <header class="space-y-2 my-12">
-      <h1 class="text-gray-900 text-4xl dark:text-neutral-300">Contact</h1>
-      <p>If you have any questions, feel free to contact me.</p>
+      <h1 style="color: white;" class="text-gray-900 text-4xl dark:text-neutral-300">Playground</h1>
+      <p>Fitur gabut</p>
     </header>
 
     <div class="grid gap-4 md:grid-cols-2">
-      <Card
-        v-for="(contact, index) in getLinks"
-        :key="index"
-        :title="contact.title"
-        :href="contact.url"
-        blank
-      >
-        <template #icon>
-          <IconBrand :brand="contact.icon" class="h-8 w-8" />
-        </template>
-
-        {{ contact.description }}
-      </Card>
-
-      <Card
-        title="Email"
-        :href="pageLoaded ? `mailto:${$config.social.email}` : false"
-        icon="IconAt"
-        :utm="false"
-      >
-        <template #icon>
-          <IconAt class="h-8 w-8" />
-        </template>
-
-        Send me an email!
-      </Card>
+      <a href="/ittn">Indonesia Twitter Trending</a>
+      <a href="/ittn/gempa">Info Gempabumi</a>
+      <a href="/ittn/meme">Meme Hari Ini</a>
     </div>
   </div>
 </template>
