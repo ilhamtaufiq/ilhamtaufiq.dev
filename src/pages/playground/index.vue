@@ -6,7 +6,7 @@
     </header>
 
     <div class="grid gap-4 md:grid-cols-2">
-      <a href="/playground/ittn">Indonesia Twitter Trends Now</a>
+      <a href="/playground/trends">Indonesia Twitter Trends Now</a>
       <a href="/playground/gempa">Info Gempabumi</a>
       <a href="/playground/meme">Meme Hari Ini</a>
     </div>
