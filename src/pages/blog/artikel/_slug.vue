@@ -260,17 +260,17 @@ export default Vue.extend({
   }
 
   h1 {
-    @apply text-xl;
+    @apply text-2xl;
   }
 
   h2,
   h3 {
-    @apply text-lg;
+    @apply text-xl;
   }
 
   /* Paragraphs */
   p {
-    @apply leading-relaxed text-gray-800 dark:text-gray-300;
+    @apply text-lg leading-relaxed text-gray-800 dark:text-gray-300;
 
     &.text-center {
       @apply flex justify-center;

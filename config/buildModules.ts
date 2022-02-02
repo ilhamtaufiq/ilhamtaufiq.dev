@@ -8,6 +8,7 @@ import googleAnalytics from "./modules/googleAnalytics"
 import typescriptBuild from "./modules/typescriptBuild"
 
 const BuildModules: NuxtOptionsModule[] = [
+  '@braid/vue-formulate/nuxt',
   "@nuxtjs/moment",
   ["@nuxt/image", image],
   ["nuxt-windicss", windicss],

@@ -79,7 +79,7 @@ export default Vue.extend({
   },
   computed: {
     getCategoryResults() {
-      const { posts } = this;
+      const { posts } = this
 
       const allPosts = posts.rest.concat(
         posts.discord,
