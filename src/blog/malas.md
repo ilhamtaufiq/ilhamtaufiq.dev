@@ -1,13 +1,12 @@
 ---
 title: Kamu punya waktu untuk Netflix, tetapi untuk hal lain, “Saya tidak ada waktu”.
 description: Kenapa kalimat “Saya Tidak ada waktu” adalah sebuah alasan yang dibuat-buat
-
 tags:
   - catatan
 createdAt: 2022-02-02
 special: true
-
-#Kamu punya waktu untuk Netflix, tetapi untuk hal lain, "Saya tidak ada waktu".
+---
+# Kamu punya waktu untuk Netflix, tetapi untuk hal lain, "Saya tidak ada waktu".
 
 Kenapa kalimat "Saya Tidak ada waktu" adalah sebuah alasan yang dibuat-buat
 
