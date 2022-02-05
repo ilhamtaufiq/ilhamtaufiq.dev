@@ -30,23 +30,6 @@
     <div class="flex flex-wrap space-x-2">
       <button title="Click to refresh the page"@click="$fetch">Refresh</button>
     </div>
-    <div id="map-wrap" style="height: 25vh">
-    <client-only>
-      <l-map :zoom=5 :center="center">
-        <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"></l-tile-layer>
-        <l-marker :lat-lng="center">
-          <l-popup :content="`${gempa.coordinates}`" :options="{ autoClose: false, closeOnClick: false }"></l-popup>
-        </l-marker>
-      <l-circle-marker
-      :lat-lng="center"
-      :radius="circle.radius"
-      :color="circle.color"
-      :fillColor="circle.fillColor"
-      :fillOpacity="circle.fillOpacity"
-    />
-      </l-map>
-    </client-only>
-    </div>
   </div>
 </template>
 <style lang="scss" scoped>
