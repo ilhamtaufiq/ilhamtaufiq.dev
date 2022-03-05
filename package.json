@@ -51,6 +51,7 @@
     "nuxt": "^2.15.8",
     "nuxt-leaflet": "^0.0.27",
     "nuxt-webfontloader": "^1.1.0",
+    "nuxt-windicss": "^2.2.8",
     "prism-themes": "^1.9.0",
     "sass": "^1.42.1",
     "tiptap-extensions": "^1.35.2",
