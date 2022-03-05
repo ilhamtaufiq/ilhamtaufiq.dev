@@ -1,15 +1,12 @@
 ---
-title: Kamu punya waktu untuk Netflix, tetapi untuk hal lain, “Saya tidak ada waktu”.
+title: Malas
 description: Kenapa kalimat “Saya Tidak ada waktu” adalah sebuah alasan yang dibuat-buat
+header: https://i.imgur.com/99vthoh.gif
 tags:
-  - catatan
-createdAt: 2022-02-02
+  - notes
+createdAt: 2022-03-05
 special: true
 ---
-# Kamu punya waktu untuk Netflix, tetapi untuk hal lain, "Saya tidak ada waktu".
-
-Kenapa kalimat "Saya Tidak ada waktu" adalah sebuah alasan yang dibuat-buat
-
 Kamu mempunyai 24 jam dalam seminggu. Semua orang memiliki waktu yang sama seperti kamu. Apa yang membedakan adalah bagaimana cara kamu menggunakan 24 jam yang kamu miliki. Seberapa efisien waktu yang kamu gunakan dalam menghabiskan 24 jam.
 Banyak orang yang menggunakan waktu mereka dengan bijak, bukan banyak alasan, tapi lebih kepada tindakan.
 

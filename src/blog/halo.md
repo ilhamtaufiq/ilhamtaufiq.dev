@@ -2,7 +2,7 @@
 title: Halo
 description: Selamat Datang!
 tags:
-  - catatan
+  - notes
 createdAt: 2021-08-12
 special: true
 ---

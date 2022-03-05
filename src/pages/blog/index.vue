@@ -11,12 +11,12 @@ export default Vue.extend({
       pagination: 0,
       posts: {
         latest: [] as Post[],
-        discord: [] as Post[],
+        notes: [] as Post[],
         linux: [] as Post[],
         rest: [] as Post[],
       },
-      categories: ["Catatan", "Linux", "Poem", "Frontend", "Site"],
-      selectedCategory: "Catatan"
+      categories: ["Notes", "Linux", "Poem", "Frontend", "Site"],
+      selectedCategory: "Site"
     }
   },
   async fetch() {
@@ -26,8 +26,8 @@ export default Vue.extend({
       .without(["body"])
       .fetch()
 
-    const discordPosts: Post[] = await this.$content()
-      .where({ tags: { $contains: "discord" } })
+    const notesPosts: Post[] = await this.$content()
+      .where({ tags: { $contains: "notes" } })
       .sortBy("createdAt", "desc")
       .limit(3)
       .without(["body"])
@@ -51,7 +51,7 @@ export default Vue.extend({
       const findFilter = (item: Post) => item.slug === post.slug
 
       if (
-        discordPosts.findIndex(findFilter) !== -1 ||
+        notesPosts.findIndex(findFilter) !== -1 ||
         linuxPosts.findIndex(findFilter) !== -1
       )
         allPosts = allPosts.filter((item: Post) => item.slug !== post.slug)
@@ -59,7 +59,7 @@ export default Vue.extend({
 
     this.posts = {
       latest: latestPosts || [],
-      discord: discordPosts || [],
+      notes: notesPosts || [],
       linux: linuxPosts || [],
       rest: allPosts || [],
     }
@@ -82,7 +82,7 @@ export default Vue.extend({
       const { posts } = this
 
       const allPosts = posts.rest.concat(
-        posts.discord,
+        posts.notes,
         posts.linux,
       )
 
@@ -123,8 +123,8 @@ export default Vue.extend({
       sorgu = sorgu?.toLowerCase()
       etiket = etiket?.toLowerCase()
 
-      const { latest, discord, linux, rest } = this.posts
-      const allPosts = [...latest, ...discord, ...linux, ...rest]
+      const { latest, notes, linux, rest } = this.posts
+      const allPosts = [...latest, ...notes, ...linux, ...rest]
 
       if (etiket)
         return allPosts.filter(
