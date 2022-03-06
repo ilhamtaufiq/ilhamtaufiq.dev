@@ -185,8 +185,8 @@ export default Vue.extend({
 
         <Disqus
           :title="post.title"
-          :url="`https://ilhamtaufiq.dev/blog/artikel/${post.slug}`"
-          :identifier="`/blog/artikel/${post.slug}`"
+          :url="`https://ilhamtaufiq.dev/blog/post/${post.slug}`"
+          :identifier="`/blog/post/${post.slug}`"
           :slug="post.slug"
           lang="id"
           class="mt-10"
@@ -228,7 +228,7 @@ export default Vue.extend({
               <SmartLink
                 v-for="(relatedPost, index) in getRelatedPosts"
                 :key="`related-${index}`"
-                :href="`/blog/artikel/${relatedPost.slug}`"
+                :href="`/blog/post/${relatedPost.slug}`"
                 class="rounded-lg bg-gray-200 bg-opacity-40 text-center p-4 transition-shadow text-gray-800 truncate dark:(bg-gray-800 text-gray-200) hover:shadow-md "
               >{{ relatedPost.title }}</SmartLink>
             </div>

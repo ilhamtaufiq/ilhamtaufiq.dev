@@ -63,7 +63,7 @@ export default Vue.extend({
     v-if="type === 'normal'"
     :title="getPostMeta.title"
     :href="{
-      name: 'blog-artikel-slug',
+      name: 'blog-post-slug',
       params: { slug: getPostMeta.slug },
     }"
     class="rounded-lg cursor-pointer space-y-2 transform transition-transform overflow-hidden sm:hover:-translate-y-1"
@@ -83,7 +83,7 @@ export default Vue.extend({
     v-else-if="type === 'text'"
     :title="getPostMeta.title"
     :href="{
-      name: 'blog-artikel-slug',
+      name: 'blog-post-slug',
       params: { slug: getPostMeta.slug },
     }"
     class="rounded-lg cursor-pointer flex space-x-4 p-3 transition-colors items-center hover:bg-gray-200/40 dark:hover:bg-gray-800/40"
@@ -106,7 +106,7 @@ export default Vue.extend({
     v-else-if="type === 'text-only-title'"
     :title="getPostMeta.title"
     :href="{
-      name: 'blog-artikel-slug',
+      name: 'blog-post-slug',
       params: { slug: getPostMeta.slug },
     }"
     class="rounded-lg cursor-pointer flex flex-col p-3 transition-colors truncate hover:bg-gray-200/40 dark:hover:bg-gray-800/40"

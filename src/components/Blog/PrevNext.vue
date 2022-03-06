@@ -42,23 +42,23 @@ export default Vue.extend({
     class="grid gap-6 grid-cols-1 sm:grid-cols-2 dark:text-gray-200"
   >
     <div>
-      <h4 class="font-medium">Artikel Sebelumnya</h4>
+      <h4 class="font-medium">Post Sebelumnya</h4>
 
-      <SmartLink v-if="prev" :href="`/blog/artikel/${prev.slug}`">
+      <SmartLink v-if="prev" :href="`/blog/post/${prev.slug}`">
         <h5>{{ prev.title }}</h5>
       </SmartLink>
 
-      <h5 v-else class="line-through">Tidak Ada Artikel Lama</h5>
+      <h5 v-else class="line-through">Tidak Ada Post Lama</h5>
     </div>
 
     <div class="text-right">
-      <h4 class="font-medium">Artikel Selanjutnya</h4>
+      <h4 class="font-medium">Post Selanjutnya</h4>
 
-      <SmartLink v-if="next" :href="`/blog/artikel/${next.slug}`">
+      <SmartLink v-if="next" :href="`/blog/post/${next.slug}`">
         <h5>{{ next.title }}</h5>
       </SmartLink>
 
-      <h5 v-else class="line-through">Tidak Ada Artikel Terbaru</h5>
+      <h5 v-else class="line-through">Tidak Ada Post Terbaru</h5>
     </div>
   </div>
 </template>

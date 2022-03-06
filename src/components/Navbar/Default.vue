@@ -8,7 +8,7 @@ export default Vue.extend({
       links: {
         default: [
           {
-            title: "Artikel",
+            title: "Post",
             to: "/blog/",
           },
           {

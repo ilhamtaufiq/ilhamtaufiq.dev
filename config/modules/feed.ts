@@ -19,7 +19,7 @@ const Feed = () => {
     const articles = await $content().fetch()
 
     articles.forEach((article: any) => {
-      const url = `${baseUrlArticles}/artikel/${article.slug}`
+      const url = `${baseUrlArticles}/post/${article.slug}`
       const postImagesPath = "https://ilhamtaufiq.dev/assets/images/posts"
 
       feed.addItem({
