@@ -56,7 +56,7 @@ interface ExperienceObject {
 export default Vue.extend({
   data() {
     return {
-      spotify: "https://np.ilhamtaufiq.dev/api?scan=true",
+      spotify: "https://np.taufiq.it/api?spin=true",
       showModal: false,
       repos: [] as Repository[],
       projects: [
@@ -149,8 +149,7 @@ export default Vue.extend({
           </div>
 
           <p class="text-gray-800 dark:text-gray-200">
-            Hi there, my name is Ilham, I am from Indonesia and I am a self
-            taught web developer.
+            Just a guy.
             <!-- <SmartLink href="https://vuejs.org/" class="description-link" blank>Vue.js</SmartLink>,
             <SmartLink href="https://nuxtjs.org/" class="description-link" blank>Nuxt.js</SmartLink>
             {{ "" }} and
